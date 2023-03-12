@@ -1,5 +1,6 @@
 import React from 'react';
 import CardCarousel from '../components/CardCarousel';
+import CardDropdown from '../components/CardDropdown';
 import HeroComponent from '../components/HeroComponent';
 import IconsBlocks from '../components/IconsBlocks';
 
@@ -23,6 +24,7 @@ function Home() {
             <HeroComponent title="Hello world! I am Marlon" paragragh="Lorem ipsum dolor amet sit" button="Click here" button_url="#card-carousel" backgroundImage="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" />
             <CardCarousel data={aboutMeData} sectionTitle="About Me" arrowLink="#icon-blocks"/>
             <IconsBlocks data={softSkillsData} sectionTitle="Skills I've picked up along the way"/>
+            <CardDropdown data = {aboutMeData} sectionTitle="My past jobs"/>
         </>
     );
 }

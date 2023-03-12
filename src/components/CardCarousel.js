@@ -49,8 +49,7 @@ const CardCarousel = ({ data, sectionTitle, arrowLink }) => {
                             <a onClick={carouselInfiniteScroll} className="text-xl md:text-3xl text-gray-500 hover:text-gray-900"><BsArrowRight /></a>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${data[0].image})` }} className="bg-center bg-cover md:animate-fade-in h-3/4 w-full flex items-center justify-center">
-                        <img class="animate-fade-in object-cover w-full h-3/4 hidden" src={data[0].image} alt="" />
+                    <div style={{ backgroundImage: `url(${data[0].image})` }} className="bg-center bg-cover md:animate-fade-in h-3/4 w-full flex items-center justify-center md:mt-0">
                         <h2 className="animate-fade-in text-center text-5xl text-white block bg-gray-900/50 w-full py-4 md:hidden">{sectionTitle}</h2>
                     </div>
                 </div>
