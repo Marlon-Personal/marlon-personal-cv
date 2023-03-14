@@ -27,8 +27,8 @@ const CardCarousel = ({ data, sectionTitle, arrowLink }) => {
         <>
             <div id="card-carousel" className="md:p-24 pb-16 h-screen flex flex-col justify-center">
                 <h2 className="animate-fade-in text-center text-4xl text-gray-800 hidden md:block">{sectionTitle}</h2>
-                <div class="flex md:flex-row flex-col-reverse md:items-center h-full">
-                    <div class="px-12 md:p-12 w-full h-full flex flex-col justify-around">
+                <div class="flex md:flex-row flex-col-reverse justify-end md:justify-center md:items-center h-full">
+                    <div class="p-12 w-full h-auto flex flex-col justify-start md:justify-around">
                         <div className="md:animate-fade-in justify-between mb-6 md:hidden flex">
                             <a onClick={carouselInfiniteScrollBack} className="text-xl md:text-3xl text-gray-500 hover:text-gray-900"><BsArrowLeft /></a>
                             <a onClick={carouselInfiniteScroll} className="text-xl md:text-3xl text-gray-500 hover:text-gray-900"><BsArrowRight /></a>
@@ -49,12 +49,12 @@ const CardCarousel = ({ data, sectionTitle, arrowLink }) => {
                             <a onClick={carouselInfiniteScroll} className="text-xl md:text-3xl text-gray-500 hover:text-gray-900"><BsArrowRight /></a>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${data[0].image})` }} className="bg-center bg-cover md:animate-fade-in h-3/4 w-full flex items-center justify-center md:mt-0">
+                    <div style={{ backgroundImage: `url(${data[0].image})` }} className="bg-center bg-cover md:animate-fade-in h-2/3 md:h-3/4 w-full flex items-center justify-center md:mt-0">
                         <h2 className="animate-fade-in text-center text-5xl text-white block bg-gray-900/50 w-full py-4 md:hidden">{sectionTitle}</h2>
                     </div>
                 </div>
                 <div className="animate-fade-in flex items-center justify-center relative">
-                    <a className="text-6xl absolute hover:text-7xl" href={arrowLink}><BsFillArrowDownCircleFill className="hover:text-sky-900" /></a>
+                    <a className="text-6xl absolute -top-38 md:top-0 hover:text-7xl" href={arrowLink}><BsFillArrowDownCircleFill className="hover:text-sky-900" /></a>
                 </div>
             </div>
         </>

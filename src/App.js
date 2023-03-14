@@ -10,7 +10,7 @@ import NotFoundPage from './pages/NotFoundPage';
 function App() {
   return (
     <BrowserRouter>
-        <div>
+        <div className='overflow-hidden'>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

@@ -12,7 +12,7 @@ export default function HeroComponent({ title, paragragh, button, button_url, ba
                 <h1 className="animate-fade-in text-3xl md:text-5xl text-center tracking-wider text-white uppercase">
                     { title }
                 </h1>
-                <div className="animate-fade-in">
+                <div className="animate-fade-in hover:scale-105">
                     <a href={button_url} className="px-6 py-3 border text-center text-xl text-white hover:text-sky-700 hover:border-sky-700">
                         { button }
                     </a>
