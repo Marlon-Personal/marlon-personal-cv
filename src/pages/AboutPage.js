@@ -1,3 +1,4 @@
+import NavBar from "../components/NavBar";
 import CardCarousel from "../components/CardCarousel";
 
 
@@ -9,7 +10,7 @@ const AboutPage = () => {
     ]
     return (
         <>
-        <h1>About me</h1>
+        <NavBar/>
         <div>
             <CardCarousel data={data}/>
         </div>

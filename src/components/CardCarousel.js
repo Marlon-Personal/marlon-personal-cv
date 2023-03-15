@@ -36,7 +36,7 @@ const CardCarousel = ({ data, sectionTitle, arrowLink }) => {
                         <div className="flex flex-nowrap overflow-hidden">
                             {data.map((item, index) => {
                                 return <>
-                                    <div className="animate-fade-in flex justify-start flex-col w-100 min-w-full min-h-full ease-in duration-1000" style={{ transform: `translate(-${currentIndex * 100}%)` }} key={index}>
+                                    <div className="animate-fade-in flex justify-start flex-col w-100 min-w-full min-h-full ease-in duration-1000 " style={{ transform: `translate(-${currentIndex * 100}%)` }} key={index}>
                                         <h3 className="mb-5 text-3xl tracking-tight text-gray-900 text-center md:text-left">{item.title}</h3>
                                         <p className="mb-8 text-xl font-thin text-gray-900 text-center md:text-left">{item.description}</p>
                                     </div>
