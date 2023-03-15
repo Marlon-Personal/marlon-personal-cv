@@ -21,6 +21,7 @@ const IconsBlocks = ({ data, sectionTitle }) => {
         //Cleans up the function
         return () => clearInterval(interval)
     });
+    
     return (
         <>
         <div id="icon-blocks">
