@@ -17,7 +17,7 @@ const DropDown = ({ toggle, data, firstImage }) => {
     }
     return (
         <div className="w-full border-b-2 border-sky-900">
-            <p className="font-thin pb-4">{data.description}</p>
+            <p className="font-thin pb-4" dangerouslySetInnerHTML={ {__html: data.description} }></p>
         </div>
     )
 }

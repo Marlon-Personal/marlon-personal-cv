@@ -1,4 +1,6 @@
 import { useParams } from 'react-router-dom';
+import Article from '../components/Article';
+import NavBar from '../components/NavBar';
 import articles from './article-content';
 import NotFoundPage from './NotFoundPage';
 
@@ -12,10 +14,8 @@ const ArticlePage = () => {
 
     return (
         <>
-        <h1>{article.title}</h1>
-        {article.content.map((paragraph,i) => (
-            <p key={i}>{paragraph}</p>
-        ))}
+        <NavBar />
+            <Article article={article} backPage="/articles"/>
         </>
     );
 }
