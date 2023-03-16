@@ -53,7 +53,7 @@ const CardDropdown = ({ mainImage, data, sectionTitle }) => {
                 <h2 className="text-4xl text-gray-800 text-center">
                     {sectionTitle}
                 </h2>
-                    <div className="shadow-lg bg-white border p-4 md:p-12 mt-4 md:mt-12 h-3/5 md:h-3/4 absolute z-10 left-8 right-8 md:left-16 md:right-1/3">
+                    <div className="shadow-lg bg-white border p-4 md:p-12 mt-4 md:mt-12 h-3/5 md:h-2/3 absolute z-10 left-8 right-8 md:left-16 md:right-1/3">
                         {stateValues.map((value, index) => (
                             <>
                                 <div key={index}>
