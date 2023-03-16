@@ -1,5 +1,15 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer'
 
-const NotFoundPage = () => (<h1>404: Page Not Found!</h1> );
+function NotFoundPage(){
+    return(
+<>
+<NavBar/>
+<h1>404: Page Not Found!</h1> 
+<Footer/>
+</>
+    )
+};
 
 export default NotFoundPage;
