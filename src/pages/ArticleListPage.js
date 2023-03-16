@@ -1,6 +1,6 @@
 import ArticleList from "../components/ArticlesList";
 import NavBar from "../components/NavBar";
-import articles from "./article-content";
+import articles from "../data/article-content";
 import HeroComponent from "../components/HeroComponent";
 
 const ArticlesListPage = () => {

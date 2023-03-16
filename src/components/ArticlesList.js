@@ -11,7 +11,7 @@ const ArticleList = ({ articles }) => {
                         <Link key={article.name} className="" to={`/articles/${article.name}`}>
                         <img src={article.image} className="h-96" />
                             <h3 className="font-light text-2xl py-4">{article.title}</h3>
-                            <p className="font-thin text-md">{article.content[0].substring(0, 300)}...</p>
+                            <p className="font-thin text-md">{article.content[0].substring(3, 300)}...</p>
                         </Link>
                     </div>
                 )
