@@ -91,3 +91,54 @@ h3, h4 {
 html {
 	scroll-behavior: smooth;
 }
+
+
+/*Styles used for the articles page*/
+.article-wrapper p{
+  font-weight: 300;
+  font-size: 1.125rem;
+line-height: 1.75rem;
+padding-bottom: 1rem;
+}
+
+.article-wrapper h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(17 24 39);
+}
+
+.article-list-item h4{
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(17 24 39);
+  margin-top: 0.5rem; /* 8px */
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+.article-wrapper ol{
+  list-style-type: disc;
+}
+
+.article-wrapper ol li{
+margin-left: 1.125rem;
+}
+
+.article-wrapper ol h5{
+  display: inline;
+  font-weight: 600;
+  }
+
+  .article-wrapper ol p{
+    display: inline;
+  }
+
+@media screen and (min-width: 796px) {
+  .article-wrapper p{
+    padding-bottom: 3rem;
+  }
+}
+/*Styles used for the articles page - END */

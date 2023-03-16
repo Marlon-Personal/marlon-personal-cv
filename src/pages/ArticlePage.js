@@ -15,7 +15,10 @@ const ArticlePage = () => {
     return (
         <>
         <NavBar />
-            <Article article={article} backPage="/articles"/>
+        <div className="article-wrapper">
+        <Article article={article} backPage="/articles"/>
+        </div>
+
         </>
     );
 }
