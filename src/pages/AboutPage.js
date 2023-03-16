@@ -1,18 +1,15 @@
 import NavBar from "../components/NavBar";
 import CardCarousel from "../components/CardCarousel";
+import jobs from '../data/jobs'
 
 
 const AboutPage = () => {
-    const data = [
-        {title: "lorem 1", description: "description lorem 1", image:"https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"}, 
-        {title: "lorem 2", description: "description lorem 2"},
-        {title: "lorem 3", description: "description lorem 3"}
-    ]
+
     return (
         <>
         <NavBar/>
         <div>
-            <CardCarousel data={data}/>
+            <CardCarousel data={jobs.compresedData}/>
         </div>
         </>
     );
