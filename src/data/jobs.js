@@ -43,10 +43,11 @@ const jobs = {
             title: "Tek Experts",
             dates: "Feb 2019 - Oct 2020",
             description: [
-                `Assiste Microsot IT Mangers and Partners with daily issues and bugs happening in their Dynamics 365 Portal, which was the website CMS offered by Microsoft connect to their own CRM.`,
-                `Any issues ranging from the integration of the Website with their Microsoft CRM, to the fixing of UI bugs with HTML and CSS, were handled by me and my team.`,
+                `Assisted Microsoft IT Mangers and Partners with daily issues and bugs happening in their Dynamics 365 Portal, which was the website CMS offered by Microsoft connect to their own CRM.`,
+                `Any issues ranging from the integration of the Website with their Microsoft CRM, to the fixing of UI bugs with HTML and CSS, were handled by me and my team. `,
                 `I also worked creating marketing emails for their campaigns, building reusable templates with HTML and CSS connected with dynamic information coming from the CRM.`,
-                `At a point, I was directly trained by Microsoft to help managing their Power Platform tool, which was this automation and flow maker tool, I gained a loot of experience and understanding of the logic behind the flows from there.`,
+                `I was directly trained by Microsoft to help managing their Power Platform tool, which was this automation and flow maker tool, I gained a loot of experience and understanding of the logic behind the flows from there.
+                `,
             ],
             image: "https://images.unsplash.com/photo-1624571395775-253d9666612b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
         }

@@ -8,8 +8,13 @@ import NavBar from '../components/NavBar';
 import jobs from '../data/jobs'
 import techSkills from '../data/tech-skills'
 import aboutMeData from '../data/about';
+import {useEffect} from 'react';
 
 function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+      },[])
 
     return (
         <>

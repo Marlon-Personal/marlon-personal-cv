@@ -54,7 +54,7 @@ const CardCarousel = ({ data, sectionTitle, arrowLink }) => {
                     </div>
                 </div>
                 <div className="animate-fade-in flex items-center justify-center relative">
-                    <a className="text-6xl absolute -top-38 md:top-0 hover:text-7xl" href={arrowLink}><BsFillArrowDownCircleFill className="hover:text-sky-900" /></a>
+                    <a className="text-6xl absolute -top-38 md:-top-10 hover:text-7xl" href={arrowLink}><BsFillArrowDownCircleFill className="hover:text-sky-900" /></a>
                 </div>
             </div>
         </>

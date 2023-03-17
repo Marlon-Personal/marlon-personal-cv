@@ -53,8 +53,9 @@ const IconsBlocks = ({ data, sectionTitle }) => {
                         <a onClick={carouselInfiniteScroll} className="text-xl md:text-3xl text-gray-500 hover:text-gray-900"><BsArrowRight /></a>
                     </div>
 
-                    <a href="#drodpdown-card-myPastJobs" className="text-6xl flex items-center justify-center"><BsFillArrowDownCircleFill className="hover:text-7xl hover:text-sky-800" /></a>
-
+                    <div className="animate-fade-in hidden md:flex items-center justify-center relative">
+                        <a href="#drodpdown-card-myPastJobs" className="text-6xl flex absolute -top-38 md:-top-24 items-center justify-center"><BsFillArrowDownCircleFill className="hover:text-7xl hover:text-sky-800" /></a>
+                    </div>
 
                 </div>
 

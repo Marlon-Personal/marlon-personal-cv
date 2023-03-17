@@ -3,9 +3,13 @@ import CardCarouselExtended from "../components/CardCarouselExtended";
 import jobs from '../data/jobs'
 import Footer from "../components/Footer";
 import HeroComponent from "../components/HeroComponent";
-
+import {useEffect} from 'react';
 
 const MyJobsPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+      },[])
 
     return (
         <>

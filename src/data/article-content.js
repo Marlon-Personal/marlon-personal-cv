@@ -1,6 +1,6 @@
 const articles = [
     {
-        name: 'learn-react',
+        name: 'react-hooks',
         title: 'Basics of React Hooks',
         content: [
             `<p>React is a popular JavaScript library for building user interfaces, and it has become a standard in front-end development. With its ability to handle complex UIs and its large community, React has been used by many developers worldwide. One of the most recent additions to React is the introduction of React Hooks. In this article, we’ll explore why React Hooks are so useful and why you should start using them in your next project.</p>
@@ -36,7 +36,7 @@ const articles = [
         ],
         image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
     },    {
-        name: 'learn-tailwind',
+        name: 'tailwind-benefits',
         title: 'Benefits of Tailwind CSS',
         content: [
             `<p>Tailwind CSS is a popular utility-first CSS framework that can help you streamline your development workflow and create more efficient, responsive web designs. With its intuitive class-based system and extensive range of pre-designed CSS utilities, Tailwind offers many benefits for developers looking to improve their CSS skills and design workflows.</p>
@@ -68,28 +68,44 @@ const articles = [
         ], 
         image: 'https://images.unsplash.com/photo-1545296664-39db56ad95bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1701&q=80'
     },     {
-        name: 'mongodb',
-        title: 'Learn MongoDB',
+        name: 'js-data-types',
+        title: 'Javascript Data Types',
         content: [
-            `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `<p>JavaScript is a popular programming language that is used for creating dynamic and interactive websites. One of the key features of JavaScript is its flexible and dynamic data typing system. In JavaScript, there are two categories of data types: primitive and non-primitive data types.</p>
+
+            <h3>Primitive Data Types</h3>
+
+            <p>Primitive data types in JavaScript are the most basic data types. They are immutable, meaning that their value cannot be changed once they are created. There are six primitive data types in JavaScript:</p>
+
+            <ol>
+                <li><h5>Number: </h5>The number data type represents both integer and floating-point numbers. For example, 10 and 3.14 are both numbers.</li>
+
+                <li><h5>String:</h5> The string data type represents text. A string is a sequence of characters enclosed in quotes, either single or double. For example, &quot;Hello World&quot; and 'JavaScript' are both strings.</li>
+
+                <li><h5>Boolean:</h5> The boolean data type represents a logical value, either true or false.</li>
+
+                <li><h5>Null:</h5> The null data type represents a deliberate non-value or empty value.</li>
+
+                <li><h5>Undefined:</h5> The undefined data type represents a value that is not yet defined or has no value.</li>
+
+                <li><h5>Symbol:</h5> The symbol data type represents a unique identifier. Symbols are often used to define object properties to avoid naming collisions.</li>
+            </ol>
+
+            <h3>Non-Primitive Data Types</h3>
+
+            <p>Non-primitive data types in JavaScript are complex data types. They are mutable, meaning that their value can be changed after they are created. There are three non-primitive data types in JavaScript:</p>
+
+            <ol>
+                <li><h5>Object:</h5> The object data type represents a collection of properties and values. Objects can be created using object literals or constructors. Examples of objects in JavaScript include arrays, functions, and regular expressions.</li>
+
+                <li><h5>Array:</h5> The array data type is a special type of object that represents a list of values. Arrays can contain any data type, including other arrays and objects.</li>
+
+                <li><h5>Function:</h5> The function data type represents a set of instructions that perform a specific task. Functions can be assigned to variables, passed as arguments to other functions, and returned as values from functions.</li>
+            </ol>
+            <h3>Conclusion</h3>
+
+            <p>In summary, JavaScript has six primitive data types and three non-primitive data types. Primitive data types are immutable and include number, string, boolean, null, undefined, and symbol. Non-primitive data types are mutable and include object, array, and function. Understanding the different data types in JavaScript is essential for writing efficient and effective code.</p>
+     `,
         ], 
         image: 'https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
     },  
