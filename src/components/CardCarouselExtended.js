@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
-const CardCarousel = ({ data, sectionTitle, isReverse }) => {
+const CardCarousel = ({ data, idCarousel, isReverse }) => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const carouselInfiniteScroll = () => {
@@ -26,7 +26,7 @@ const CardCarousel = ({ data, sectionTitle, isReverse }) => {
 
     return (
         <>
-            <div id="card-carousel" className="md:p-24 py-10 h-screen flex flex-col justify-center">
+            <div id={idCarousel} className="md:p-24 py-10 h-screen flex flex-col justify-center">
                 <h2 className="animate-fade-in text-center text-4xl text-gray-800 hidden md:block">{data.title}</h2>
                 <div class={`flex ${isReverse ? 'md:flex-row-reverse' : 'md:flex-row'} flex-col-reverse justify-end md:justify-center md:items-center h-full`}>
                     <div class="p-12 w-full h-3/4 md:h-auto flex flex-col justify-start md:justify-around">
