@@ -9,10 +9,8 @@ const AboutPage = () => {
     return (
         <>
         <NavBar/>
-        <div>
-            <CardCarouselExtended data={jobs.extendedData[0]}/>
-            <CardCarouselExtended data={jobs.extendedData[1]}/>
-            <CardCarouselExtended data={jobs.extendedData[2]}/>
+        <div className="flex justify-center align-center h-screen">
+            <h1 className="text-center text-5xl">COMING SOON</h1>
         </div>
         <Footer/>
         </>

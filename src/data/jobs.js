@@ -7,7 +7,7 @@ const jobs = {
         },
         {
             title: "Western Union",
-            description: "This role involved managing complex changes and escalations in WordPress pages, ensuring that feedback from high-end customers was applied with the best quality and performance. HTML/CSS/JS were used to ensure that the code written was scalable, reusable, and SEO compliant.",
+            description: "This role involved managing complex changes and escalations in WordPress pages during their migration from AEM, ensuring that feedback from high-end customers was applied with the best quality and performance. HTML/CSS/JS were used to ensure that the code written was scalable, reusable, and SEO compliant.",
             image: "https://images.unsplash.com/photo-1616077168712-fc6c788db4af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2342&q=80"
         },
         {
