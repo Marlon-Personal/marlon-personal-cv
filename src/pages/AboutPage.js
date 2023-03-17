@@ -10,7 +10,7 @@ const AboutPage = () => {
         <>
         <NavBar/>
         <div>
-            <CardCarousel data={jobs.compresedData}/>
+            <CardCarousel data={jobs.extendedData}/>
         </div>
         <Footer/>
         </>
