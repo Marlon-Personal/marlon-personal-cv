@@ -40,7 +40,7 @@ const CardCarousel = ({ data, idCarousel, isReverse }) => {
                             {data.description.map((item, index) => {
                                 return <>
                                     <div className="animate-fade-in flex justify-start flex-col w-100 min-w-full min-h-full ease-in duration-1000 " style={{ transform: `translate(-${currentIndex * 100}%)` }} key={index}>
-                                        <p className="mb-8 text-xl font-light text-gray-900 text-center md:text-left leading-10">{item}</p>
+                                        <p className="mb-8 text-lg md:text-xl font-light text-gray-900 text-center md:text-left leading-8 md:leading-10">{item}</p>
                                     </div>
                                 </>
                             }
