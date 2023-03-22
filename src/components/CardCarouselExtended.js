@@ -19,7 +19,7 @@ const CardCarousel = ({ data, idCarousel, isReverse }) => {
     }
 
     useEffect(() => {
-        const interval = setInterval(() => { carouselInfiniteScroll() }, 10000);
+        const interval = setInterval(() => { carouselInfiniteScroll() }, 18000);
         //Cleans up the function
         return () => clearInterval(interval)
     });
